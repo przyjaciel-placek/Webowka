@@ -1,0 +1,58 @@
+body {
+    background-image: url("data/pictures/bigben_background.jpg");
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: bottom;
+
+        background-size:cover;
+
+    display: block;
+}
+
+section {
+    
+    font-size: 15pt;                            /*     font-size:  pt   */
+    background-color: white;
+    border-radius: 35px;
+    
+    margin: 70px;
+    padding: 25px 50px 25px 50px;
+    width: auto;
+
+}
+
+
+table {
+   border-width: 10px;
+   border-style: double;
+   border-color:lightskyblue;
+}
+th, td, tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+ }
+
+
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border-top:    3px solid  #000;
+    border-bottom: 3px solid #000;
+}
+
+
+h2 {
+    font-size: 28;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightskyblue;
+}
+    

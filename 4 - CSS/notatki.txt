@@ -1,0 +1,10 @@
+zad 3:
+- osadzanie inline (slajd 5)
+
+    nagłówek LONDYN
+
+- arkusz stylów (w <head> - slajd 7) 
+
+
+
+- plik .css

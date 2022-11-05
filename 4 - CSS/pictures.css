@@ -1,0 +1,105 @@
+body {
+    background-color: lightgrey;
+
+    display: block;
+}
+
+section {
+    
+    font-size: 15pt;                            /*     font-size:  pt   */
+    background-color: white;
+    border-radius: 35px;
+    
+    margin: 70px;
+    padding: 25px 50px 25px 50px;
+    width: auto;
+
+}
+
+
+table {
+   border-width: 10px;
+   border-style: double;
+   border-color:lightskyblue;
+}
+th, td, tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+ }
+
+
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border-top:    3px solid  #000;
+    border-bottom: 3px solid #000;
+}
+
+
+h2 {
+    font-size: 28;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightskyblue;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-gap{
+     height: 20px;
+    }
+    nav{ 
+     position:fixed;
+     left:0px;
+     top:0px;
+     font-weight: bold;
+     color: black;
+     border: 3px solid black;
+     text-align: center;
+     width: 10em;
+     background-color:grey; 
+    }
+    nav ul{ 
+     display: none;
+     list-style: none;
+     margin: 0;
+     padding: 0; 
+    }
+    nav:hover ul{
+     display: block;
+    }
+    nav ul li{ 
+     border-top: 3px solid grey;
+     background-color:grey;
+     width: 10em;
+     color: black; 
+    }
+    nav ul li:hover{
+     background-color: grey; 
+    }
+    a{
+     text-decoration: none;
+    }
+    
+
+    

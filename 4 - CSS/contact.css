@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+    display: block;
+}
+
+section {
+    
+    font-size: 15pt;                            /*     font-size:  pt   */
+    background-color: white;
+    border-radius: 35px;
+    
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    width: 700px;
+
+}
+
+
+h1 {
+    text-align: center;
+}

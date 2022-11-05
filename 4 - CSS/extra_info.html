@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <!--  to jest komentarz, poniżej ustawiam ciemne tło     -->
+    <meta content="light" name="color-scheme">
+    <meta name="keywords" content="Londyn, formularz, ankieta">
+    <meta name="description" content="Ankieta dotycząca Londynu. Udziel odpowiedzi dotyczących tego miasta." />
+    <!--  nadaję tytuł stronie     -->
+    <link rel="stylesheet" href="contact.css"/>
+    <title>Londyn - dodatkowe informacje</title>
+</head>
+<body>
+    
+    <section>
+        <a href="start.html">Cofnij do strony głównej</a>
+        <br><br><br><br>
+
+        <h2><mark>Tutaj możesz podać dodatkowe informacje o sobie</mark></h2>
+
+
+        <form method="post" autocomplete="on">
+            
+            <label for="favcolor">Jaki kolor Ci się podoba:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="" placeholder="Ulubiony kolor"><br>
+            <br><br>
+            <label for="fname">W którym miesiącu wybierasz się na wakacje?</label><br>
+            <input type="month" id="fname" name="fname" value="" autofocus="imię" placeholder="Ulubiony month"><br>
+            <br><br>
+            <label for="fname">Jak bardzo lubisz papugi? Pokaż na suwaku:</label><br>
+            <p>nie bardzo
+            <input type="range" id="fname" name="fname" value="" autofocus="imię" placeholder="Ulubiony range">
+            bardzo</p><br>
+            <label for="fname">Co ciekawego ostatnio wyszukałeś/wyszukałaś w przeglądarce internetowej:</label><br>
+            <input type="search" id="fname" name="fname" value="" autofocus="imię" placeholder="Wpisz ciekawe hasło"><br>
+            <br><br>
+            <label for="fname">Jaka strona internetowa według Ciebie dobrze wygląda?:</label><br>
+            <input type="url" id="fname" name="fname" value="" autofocus="imię" placeholder="Podaj link url strony"><br>
+
+            <br><br>
+            <input type="reset" value="Usuń wypełnione odpowiedzi">
+            <input type="submit" value="Wyślij">
+        </form>
+    </section>
+
+
+
+    
+    <footer>
+        <br>
+        <p>Autor: Michał Górniak</p>
+        <p><a href="contact.html">Kontakt</a></p>
+    </footer>
+ 
+</body>
+</html>
